@@ -18,10 +18,6 @@ const files = [
     contract: "0x1a92f7381b9f03921564a437210bb9396471050c",
     data: coolCats,
   },
-  {
-    contract: "0x3110ef5f612208724ca51f5761a69081809f03b7",
-    data: impostors,
-  },
 ]
 
 app.get("/nftCollection", async (req, res) => {
