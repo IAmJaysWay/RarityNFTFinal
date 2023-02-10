@@ -1,0 +1,275 @@
+.mainWindow{
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.sideBar {
+    background-color: white !important;
+    min-width: 270px !important;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.menuItem {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.menuItem:hover{
+    color: #005eff;
+    cursor: pointer;
+}
+
+.menuIcon {
+    color: #005eff;
+}
+
+.homeHeader {
+    min-width: calc(100vw-270px);
+    height: 150px;
+    background: rgb(0,158,255);
+    background: linear-gradient(149deg, rgba(0,158,255,1) 50%, rgba(9,255,208,1) 93%);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.homeHeaderOne {
+    font-weight: bold;
+    color: white;
+    font-size: 37px;
+}
+
+.homeHeaderTwo {
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+}
+
+.collectionSearchField {
+    width: 100%;
+    border: 1px solid rgb(196, 196, 196);
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 10px;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+.collectionSearchField:hover {
+    cursor: pointer;
+    border:  1px solid rgb(70, 70, 70);
+    color: black;
+    transition: 0.6s border;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    height: 160px;
+    font-size: 25px;
+    color: #005eff;
+}
+
+.homeList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 50px;
+    margin-bottom: 15px;
+    gap: 25px;
+}
+
+.homeTrending {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px 50px;
+    color: rgb(70, 70, 70);
+}
+
+.cardBottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.chainTag {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.web3Links {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+.web3Link {
+    height: 24px;
+    transition: 0.4s;
+}
+
+.web3Link:hover {
+    cursor: pointer;
+    margin-left: 2px;
+    height: 16px;
+}
+
+.collectionHeader {
+    min-width: calc(100vw - 270px);
+    height: 250px;
+    background-color: rgb(46, 44, 52);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.collectionPageName {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.collectionPageContract {
+    color: rgba(255, 255, 255, 0.571);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.collectionPageLogo {
+    height: 190px;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.listOfNFTs {
+    gap: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 40px;
+}
+
+.loadMore {
+    justify-self: center;
+    align-self: center;
+    margin: 40px 0px;
+}
+
+.rankAndId {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rankSingle {
+    color: #005eff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.idSingle {
+    color:rgb(70, 70, 70);
+    font-weight: bold;
+}
+
+.modalTitle {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.modalContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.modalImg {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.tableOfScores {
+    width: 510px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.totalScore {
+    background: rgb(0,158,255);
+    background: linear-gradient(149deg, rgba(0,158,255,1) 50%, rgba(9,255,208,1) 93%);
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.tableRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: 5px 0px;
+    font-size: 16px;
+}
+
+.tableRowOne {
+    width: 210px;
+}
+
+.tableRowTwo {
+    width: 210px;
+}
+
+.tableRowThree {
+    width: 90px;
+    text-align: end;
+}
